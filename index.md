@@ -1,4 +1,50 @@
+---
+  layout: layout
+  title: タイトル指定してみました！！
+---
+
 ## Welcome to GitHub Pages
+
+### page変数の中身
+{{ page }}
+
+### site変数の中身
+{{ site }}
+
+```Java
+
+public static void main(String[] args){
+  System.out.println("Hello World!");
+}
+
+
+```
+
+
+<ul>
+{% for post in site.posts %}
+  <li>
+    <a href="{{ post.url }}">{{ post.date | date_to_long_string }} : {{ post.title }}</a>
+  </li>
+{% endfor %}
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 You can use the [editor on GitHub](https://github.com/masacchi/study.record.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
