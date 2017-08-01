@@ -11,14 +11,14 @@
 ### site変数の中身
 {{ site }}
 
-```Java
+{% highlight java linenos %}
 
 public static void main(String[] args){
   System.out.println("Hello World!");
 }
 
 
-```
+{% endhighlight %}
 
 
 <ul>

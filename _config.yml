@@ -1,1 +1,4 @@
+title: [The title of your site]
+description: [A short description of your site's purpose]
 permalink: /:categories/:year-:month-:day/:title
+theme: jekyll-theme-hacker
