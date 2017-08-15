@@ -1,10 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-
-</body>
-</html>
+<header>
+    <div>{{ page.date | date_to_string }}</div>
+    <h1>{{ page.title }}</h1>
+    {% include post_meta.html %}
+</header>

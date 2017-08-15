@@ -13,12 +13,6 @@ Obtain time and tags that are associated with current page/post.
 {% endif %}
 
 <span class="post-meta">
-  <time
-          datetime="{{ date | date_to_xmlschema }}"
-          class="post-date">
-    {{ date | date_to_string }}
-  </time>
-
   {% comment %}
     <!--
     Display all the tag names that link to a corresponding section of the Tags page.

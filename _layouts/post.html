@@ -1,17 +1,8 @@
 ---
 layout: layout
 ---
-<header>
-  <div>{{ page.date | date_to_string }}</div>
-  <h1>{{ page.title }}</h1>
-</header>
+{% include header.html %}
 
-{% include post_meta.html %}
-
-<div class='main'>
+<div class='post_body'>
   {{ content }}
 </div>
-
-<footer>
-  <p>- rendered with post template -</p>
-</footer>
